@@ -10,7 +10,6 @@ module FSM (I,clock,reset,F,S);
 		S3=3'b011,
 		S4=3'b100;
 	
-	
 	reg [2:0] CS,NS;
 
 	always @(posedge clock)
